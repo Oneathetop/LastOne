@@ -1,0 +1,123 @@
+header{
+    background-color: lightgray;
+    padding: 15px;
+    text-align: center;
+    font-size: larger;
+}
+
+body{
+    background-color: aliceblue;
+}
+
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-self: space-between;
+    align-items: center;
+    .container1{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: normal;
+    }
+
+    
+}
+
+#logo{
+    margin-top: 10px;
+    margin-right: auto;
+    border: 5px solid #333;
+}
+
+.nav li{
+    align-items: normal;
+}
+
+.content{
+    padding: 5px;
+    text-align: center;
+    font-size: large;
+}
+
+
+
+footer{
+    color: #000000;
+    background-color: rgb(141, 213, 213);
+    text-align: center;
+    font-size: medium;
+    padding: 0px;
+    
+}
+
+.flex-container{
+    
+    display: flex;
+    flex-wrap: wrap;
+    background-color:aliceblue;
+    border: 5px solid #333;
+    
+}
+
+.image{
+    flex: 0 0 25%;
+    align-self: center;
+    box-sizing: border-box;
+    border-color: #000000 ;
+    padding: 5px;
+    
+    
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+    
+}
+    
+.caption{
+    text-align: center;
+
+}
+
+#head{
+    display: none;
+}
+
+#nav{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+
+}
+
+#nav-item{
+margin-right: 30px;
+}
+
+
+main{
+background-color: aliceblue;
+align-items: center;
+padding: 15px;
+}
+
+
+
+#h1{
+    text-align: center;
+    background-color: blanchedalmond;
+    padding: 15px;
+    
+    
+}
+
+@media(max-width:768px){
+    .container{
+        display: none;
+    }
+}
